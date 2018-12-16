@@ -28,11 +28,11 @@ def main():
 ###############################################################################
 
 # -----------------------------------------------------------------------------
-# TODO: 2.          With your instructor, READ THE INSTRUCTIONS in
-# TODO (continued)  in file  m0_INSTRUCTIONS.txt, asking questions as needed.
+# Done: 2.          With your instructor, READ THE INSTRUCTIONS in
+# Done (continued)  in file  m0_INSTRUCTIONS.txt, asking questions as needed.
 #
-# TODO (continued): Then implement a class called   Point that has NO METHODS
-# TODO (continued)  yet, just the lines that start the definition of any class:
+# Done (continued): Then implement a class called   Point that has NO METHODS
+# Done(continued)  yet, just the lines that start the definition of any class:
 #
 #      class NAME_OF_CLASS(object):
 #          """ Brief description of what objects of the class 'are'."""
@@ -43,7 +43,7 @@ def main():
 class Point(object):
     """represents a 2-D point"""
 
-    def __init__(self,x,y,):
+    def __init__(self,x,y):
         self.x = x
         self.y = y
         self.moves = 0
